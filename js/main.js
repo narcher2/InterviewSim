@@ -178,7 +178,7 @@ function actionOnClick () {
       text.setText("Alrighty, I think I've heard enough.\n We'll call you." + step);   
     buttonText1.setText("Thank you, I hope you reached your expectations.");
       buttonText2.setText("I'll be anxiously awating your call.");
-      buttonText3.setText("You know, even if I didn't get the job\n you can still call me and let me know\n like it's no big deal.");
+      buttonText3.setText("You know, even if I didn't get the job\n you can still call me and let me know, like it's no big deal.");
       buttonText4.setText("*Shake hand firmly* Thank you sir, I look forward to working with you.");
     }
 }
