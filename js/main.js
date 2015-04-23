@@ -388,6 +388,8 @@ function actionOnClick2 () {
     }
     if (step === 4)
     {
+      boss.play('happy');
+      happiness++;
       text.setText("What is your biggest weakness?");   
         buttonText1.setText("My inability to work with others.");
       buttonText2.setText("I work too hard for my own good.");
@@ -396,6 +398,8 @@ function actionOnClick2 () {
     }
     if (step === 5)
     {
+      boss.play('happy');
+      happiness++;
       text.setText("Where do you see yourself in 5 years?");
     buttonText1.setText("Sitting in your chair, asking\nsome young go-getter the same question.");
       buttonText2.setText("At the head of this company.");
@@ -404,6 +408,9 @@ function actionOnClick2 () {
     }
     if (step === 6)
     {
+      boss.play('veryhappy');
+      happiness++;
+      happiness++;
       text.setText("Kirk or Picard?");   
     buttonText1.setText("Kirk.");
       buttonText2.setText("Picard.");
@@ -412,14 +419,18 @@ function actionOnClick2 () {
     }
     if (step === 7)
     {
+    boss.play('angry');
+      anger++;
       text.setText("Do you plan on havng kids any time soon?");   
     buttonText1.setText("I do, but the job will take priority over them.");
-      buttonText2.setText("I didn't major in elextrical engineering to have kids.");
+      buttonText2.setText("I didn't major in electrical engineering to have kids.");
       buttonText3.setText("I'm infertile. <shed tear>");
       buttonText4.setText("I don't feel comfortable answering that questions");
     }
         if (step === 8)
     {
+      boss.play('eyesclosed');
+      happiness++;
       text.setText("Could you describe an experience\nyou've had with adversity?");   
     buttonText1.setText("Hmm, I honestly can't think of one.\nThings always tend to work out well when I'm involved.");
       buttonText2.setText("I got in a fight with my former manager,\nso I ended up stealing his mailbox.");
@@ -428,6 +439,10 @@ function actionOnClick2 () {
     }
         if (step === 9)
     {
+         boss.play('veryangry');
+      anger++;
+      anger++;
+      sadness++;
       text.setText("Favorite color?");   
     buttonText1.setText("I'm colorblind <shed tear>");
       buttonText2.setText("Orange.");
@@ -436,14 +451,18 @@ function actionOnClick2 () {
     }
     if (step === 10)
     {
+      boss.play('neutral');
+      happiness++;
       text.setText("If you had a time machine that you could\nonly use twice, what would you do?");   
-    buttonText1.setText("Go back in time and kill Hitler.");
+      buttonText1.setText("Go back in time and kill Hitler.");
       buttonText2.setText("Destroy it, nothing good comes from time travel.");
       buttonText3.setText("Witness the beginning of the universe.");
       buttonText4.setText("Travel back in time to the founding of this company,\nand invest all my money in its stock.");
     }
     if (step === 11)
     {
+      boss.play('sad');
+      sadness++;
       text.setText("I see you eying the picture of my family.\nWhat do you think about my wife?");   
       buttonText1.setText("She's beautiful.");
       buttonText2.setText("I don't know, I haven't met her.\nI wouldn't judge her on appearance alone.");
@@ -452,6 +471,9 @@ function actionOnClick2 () {
     }
     if (step === 12)
     {
+      boss.play('veryhappy');
+      happiness++;
+      anger--;
       text.setText("What did you on your 21st birthday?");   
       buttonText1.setText("I'm not 21 yet.");
       buttonText2.setText("I don't... remember.");
@@ -460,6 +482,10 @@ function actionOnClick2 () {
     }
     if (step === 13)
     {
+    boss.play('veryangry');
+      anger++;
+        anger++;
+        happiness--;
       text.setText("How do you organize your LEGO's?");   
       buttonText1.setText("By color.");
       buttonText2.setText("By shape and size.");
@@ -468,6 +494,7 @@ function actionOnClick2 () {
     }
     if (step === 14)
     {
+    boss.play('neutral');
       text.setText("If I tried to kill you, would you fight back?");   
       buttonText1.setText("I feel my death would benefit the company,\nif you felt it just to attack me.");
       buttonText2.setText("I've had my right hand on the trigger this whole time..");
@@ -476,6 +503,9 @@ function actionOnClick2 () {
     }
     if (step === 15)
     {
+      boss.play('verysad');
+      happiness++;
+      sadness++;
       text.setText("What's something special about you\nthat the other candidates may not have?");   
       buttonText1.setText("I studied Russian at Oxford.");
       buttonText2.setText("I once killed a man using only a ballpoint pen.");
@@ -484,6 +514,9 @@ function actionOnClick2 () {
     }
     if (step === 16)
     {
+      boss.play('angry');
+      happiness++;
+      anger++;
       text.setText("Interesting, tell me more.");   
       buttonText1.setText("It was by far the most invigorating time of my life.");
       buttonText2.setText("The only thing I regret is that it\ntook up a significant amount of my precious time.");
@@ -492,6 +525,8 @@ function actionOnClick2 () {
     }
     if (step === 17)
     {
+    boss.play('sad');
+      sadness++;
       text.setText("You must fight a duo of either: a black bear\n, a hyena, a honey badger,\nor a horse.\nYou get one as your ally.");
       buttonText1.setText("Mount the bear, fight the horse mounted hyena- aim low.");
       buttonText2.setText("Tag team the honey badger, let him do all the work against the horse bear.");
@@ -500,6 +535,8 @@ function actionOnClick2 () {
     }
     if (step === 18)
     {
+      boss.play('eyesclosed');
+      happiness++;
       text.setText("What was the name of the man you talked\nto in the elevator on the way up here?");   
       buttonText1.setText("Mr. Miyamoto?");
       buttonText2.setText("It was a she- her name was Summer. We're having lunch after this.");
@@ -508,6 +545,8 @@ function actionOnClick2 () {
     }
     if (step === 19)
     {
+      boss.play('happy');
+      happiness++;
       text.setText("You are sentenced to execution, and must\n choose either a lava pit\nor quicksand to jump into.");   
       buttonText1.setText("Quicksand, legs first. So I'll have time to make my peace.");
       buttonText2.setText("Lava, head first. Quick and painless.");
@@ -516,6 +555,8 @@ function actionOnClick2 () {
     }
     if (step === 20)
     {
+      boss.play('neutral');
+      sadness++;
       text.setText("Favorite non-soda beverage?");   
       buttonText1.setText("Coffee.");
       buttonText2.setText("Milk.");
@@ -524,6 +565,7 @@ function actionOnClick2 () {
     }
     if (step === 21)
     {
+      boss.play('happy');
       text.setText("Alrighty, I think I've heard enough.\n We'll call you." + step);   
     buttonText1.setText("Thank you, I hope you reached your expectations.");
       buttonText2.setText("I'll be anxiously awating your call.");
