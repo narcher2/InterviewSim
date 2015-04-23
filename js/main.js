@@ -126,8 +126,6 @@ function updateText() {
 }
 
 function actionOnClick1 () {
-    
-    step++;
 
     if (step === 1)
     {
@@ -297,4 +295,6 @@ function actionOnClick1 () {
       buttonText3.setText("You know, even if I didn't get the job\n you can still call me and let me know, like it's no big deal.");
       buttonText4.setText("*Shake hand firmly* Thank you sir, I look forward to working with you.");
     }
+    
+    step++;
 }
