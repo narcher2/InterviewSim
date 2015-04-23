@@ -735,7 +735,7 @@ function actionOnClick3 () {
     if (step === 15)
     {
     boss.play('eyesclosed');
-      happines++;
+      happiness++;
       anger++;
       text.setText("What's something special about you\nthat the other candidates may not have?");   
       buttonText1.setText("I studied Russian at Oxford.");
