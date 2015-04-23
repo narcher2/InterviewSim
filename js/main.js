@@ -245,7 +245,7 @@ function actionOnClick1 () {
     {
     boss.play('neutral');
       anger--;
-      text.setText("I see you eying the picture of my family. What do you think about my wife?");   
+      text.setText("I see you eying the picture of my family.\nWhat do you think about my wife?");   
       buttonText1.setText("She's beautiful.");
       buttonText2.setText("I don't know, I haven't met her.\nI wouldn't judge her on appearance alone.");
       buttonText3.setText("You're lucky to have her.");
@@ -288,7 +288,7 @@ function actionOnClick1 () {
     boss.play('veryhappy');
       happiness++;
       happiness++;
-      text.setText("What's something special about you that the other candidates may not have?");   
+      text.setText("What's something special about you\nthat the other candidates may not have?");   
       buttonText1.setText("I studied Russian at Oxford.");
       buttonText2.setText("I once killed a man using only a ballpoint pen.");
       buttonText3.setText("I once outran a swarm of killer bees by navigating a hedge maze of my own design.");
@@ -307,7 +307,7 @@ function actionOnClick1 () {
     if (step === 17)
     {
     boss.play('neutral');
-      text.setText("You must fight a duo of either: a black bear, a hyena,\na honey badger, or a horse.\nYou get one as your ally.");   
+      text.setText("You must fight a duo of either: a black bear\n, a hyena, a honey badger,\nor a horse.\nYou get one as your ally.");   
       buttonText1.setText("Mount the bear, fight the horse mounted hyena- aim low.");
       buttonText2.setText("Tag team the honey badger, let him do all the work against the horse bear.");
       buttonText3.setText("Do I get a sword? If so, mount me on a horse and I can take all 3.");
@@ -444,7 +444,7 @@ function actionOnClick2 () {
     }
     if (step === 11)
     {
-      text.setText("I see you eying the picture of my family. What do you think about my wife?");   
+      text.setText("I see you eying the picture of my family.\nWhat do you think about my wife?");   
       buttonText1.setText("She's beautiful.");
       buttonText2.setText("I don't know, I haven't met her.\nI wouldn't judge her on appearance alone.");
       buttonText3.setText("You're lucky to have her.");
@@ -476,7 +476,7 @@ function actionOnClick2 () {
     }
     if (step === 15)
     {
-      text.setText("What's something special about you that the other candidates may not have?");   
+      text.setText("What's something special about you\nthat the other candidates may not have?");   
       buttonText1.setText("I studied Russian at Oxford.");
       buttonText2.setText("I once killed a man using only a ballpoint pen.");
       buttonText3.setText("I once outran a swarm of killer bees by navigating a hedge maze of my own design.");
@@ -492,7 +492,7 @@ function actionOnClick2 () {
     }
     if (step === 17)
     {
-      text.setText("You must fight a duo of either: a black bear, a hyena,\na honey badger, or a horse.\nYou get one as your ally.");   
+      text.setText("You must fight a duo of either: a black bear\n, a hyena, a honey badger,\nor a horse.\nYou get one as your ally.");
       buttonText1.setText("Mount the bear, fight the horse mounted hyena- aim low.");
       buttonText2.setText("Tag team the honey badger, let him do all the work against the horse bear.");
       buttonText3.setText("Do I get a sword? If so, mount me on a horse and I can take all 3.");
@@ -620,7 +620,7 @@ function actionOnClick3 () {
     }
     if (step === 11)
     {
-      text.setText("I see you eying the picture of my family. What do you think about my wife?");   
+      text.setText("I see you eying the picture of my family.\nWhat do you think about my wife?");   
       buttonText1.setText("She's beautiful.");
       buttonText2.setText("I don't know, I haven't met her.\nI wouldn't judge her on appearance alone.");
       buttonText3.setText("You're lucky to have her.");
@@ -652,7 +652,7 @@ function actionOnClick3 () {
     }
     if (step === 15)
     {
-      text.setText("What's something special about you that the other candidates may not have?");   
+      text.setText("What's something special about you\nthat the other candidates may not have?");   
       buttonText1.setText("I studied Russian at Oxford.");
       buttonText2.setText("I once killed a man using only a ballpoint pen.");
       buttonText3.setText("I once outran a swarm of killer bees by navigating a hedge maze of my own design.");
@@ -668,7 +668,7 @@ function actionOnClick3 () {
     }
     if (step === 17)
     {
-      text.setText("You must fight a duo of either: a black bear, a hyena,\na honey badger, or a horse.\nYou get one as your ally.");   
+text.setText("You must fight a duo of either: a black bear\n, a hyena, a honey badger,\nor a horse.\nYou get one as your ally.");  
       buttonText1.setText("Mount the bear, fight the horse mounted hyena- aim low.");
       buttonText2.setText("Tag team the honey badger, let him do all the work against the horse bear.");
       buttonText3.setText("Do I get a sword? If so, mount me on a horse and I can take all 3.");
@@ -796,7 +796,7 @@ function actionOnClick4 () {
     }
     if (step === 11)
     {
-      text.setText("I see you eying the picture of my family. What do you think about my wife?");   
+      text.setText("I see you eying the picture of my family.\nWhat do you think about my wife?");   
       buttonText1.setText("She's beautiful.");
       buttonText2.setText("I don't know, I haven't met her.\nI wouldn't judge her on appearance alone.");
       buttonText3.setText("You're lucky to have her.");
@@ -828,7 +828,7 @@ function actionOnClick4 () {
     }
     if (step === 15)
     {
-      text.setText("What's something special about you that the other candidates may not have?");   
+      text.setText("What's something special about you\nthat the other candidates may not have?");   
       buttonText1.setText("I studied Russian at Oxford.");
       buttonText2.setText("I once killed a man using only a ballpoint pen.");
       buttonText3.setText("I once outran a swarm of killer bees by navigating a hedge maze of my own design.");
@@ -844,7 +844,7 @@ function actionOnClick4 () {
     }
     if (step === 17)
     {
-      text.setText("You must fight a duo of either: a black bear, a hyena,\na honey badger, or a horse.\nYou get one as your ally.");   
+      text.setText("You must fight a duo of either: a black bear\n, a hyena, a honey badger,\nor a horse.\nYou get one as your ally.");
       buttonText1.setText("Mount the bear, fight the horse mounted hyena- aim low.");
       buttonText2.setText("Tag team the honey badger, let him do all the work against the horse bear.");
       buttonText3.setText("Do I get a sword? If so, mount me on a horse and I can take all 3.");
