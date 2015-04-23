@@ -21,7 +21,7 @@ function create() {
 
     music.play();
     
-    step = 0;
+    step = 1;
     anger = 0;
     happiness = 0;
     sadness = 0;
@@ -40,6 +40,7 @@ function create() {
     boss.animations.add('sad', [5], 20, false);
     boss.animations.add('verysad', [6], 20, false);
     boss.animations.add('verymad', [7], 20, false);
+    boss.play('neutral');
     
 
     button = game.add.button(32, 400, 'button', actionOnClick1, this, 2, 1, 0);
