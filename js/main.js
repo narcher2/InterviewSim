@@ -175,6 +175,30 @@ function actionOnClick () {
     }
     if (step === 7)
     {
+      text.setText("Do you plan on havng kids any time soon?");   
+    buttonText1.setText("I do, but the job will take priority over them.");
+      buttonText2.setText("I didn't major in elextrical engineering to have kids.");
+      buttonText3.setText("I'm infertile. <shed tear>");
+      buttonText4.setText("I don't feel comfortable answering that questions");
+    }
+        if (step === 6)
+    {
+      text.setText("Kirk or Picard?");   
+    buttonText1.setText("Kirk.");
+      buttonText2.setText("Picard.");
+      buttonText3.setText("Reynolds.");
+      buttonText4.setText("What?");
+    }
+        if (step === 6)
+    {
+      text.setText("Kirk or Picard?");   
+    buttonText1.setText("Kirk.");
+      buttonText2.setText("Picard.");
+      buttonText3.setText("Reynolds.");
+      buttonText4.setText("What?");
+    }
+    if (step === 21)
+    {
       text.setText("Alrighty, I think I've heard enough.\n We'll call you." + step);   
     buttonText1.setText("Thank you, I hope you reached your expectations.");
       buttonText2.setText("I'll be anxiously awating your call.");
