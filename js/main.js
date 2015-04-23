@@ -353,6 +353,16 @@ function actionOnClick1 () {
       buttonText4.setText("*Shake hand firmly* Thank you sir, I look forward to working with you.");
     }
     
+    if (step === 22)
+    {
+        if (happiness > anger)
+        {
+        text.setText("You got the job!."); 
+        }else{
+            text.setText("You never receive a call back. Maybe next time);
+        }
+    }
+    
     step++;
 }
 
@@ -571,6 +581,16 @@ function actionOnClick2 () {
       buttonText2.setText("I'll be anxiously awating your call.");
       buttonText3.setText("You know, even if I didn't get the job\n you can still call me and let me know, like it's no big deal.");
       buttonText4.setText("*Shake hand firmly* Thank you sir, I look forward to working with you.");
+    }
+    
+    if (step === 22)
+    {
+        if (happiness > anger)
+        {
+        text.setText("You got the job!."); 
+        }else{
+            text.setText("You never receive a call back. Maybe next time);
+        }
     }
     
     step++;
@@ -796,6 +816,16 @@ text.setText("You must fight a duo of either: a black bear\n, a hyena, a honey b
       buttonText4.setText("*Shake hand firmly* Thank you sir, I look forward to working with you.");
     }
     
+    if (step === 22)
+    {
+        if (happiness > anger)
+        {
+        text.setText("You got the job!."); 
+        }else{
+            text.setText("You never receive a call back. Maybe next time);
+        }
+    }
+    
     step++;
 }
 
@@ -965,11 +995,21 @@ function actionOnClick4 () {
     }
     if (step === 21)
     {
-      text.setText("Alrighty, I think I've heard enough.\n We'll call you." + step);   
+      text.setText("Alrighty, I think I've heard enough.\n We'll call you.");   
     buttonText1.setText("Thank you, I hope you reached your expectations.");
       buttonText2.setText("I'll be anxiously awating your call.");
       buttonText3.setText("You know, even if I didn't get the job\n you can still call me and let me know, like it's no big deal.");
       buttonText4.setText("*Shake hand firmly* Thank you sir, I look forward to working with you.");
+    }
+    
+    if (step === 22)
+    {
+        if (happiness > anger)
+        {
+        text.setText("You got the job!."); 
+        }else{
+            text.setText("You never receive a call back. Maybe next time);
+        }
     }
     
     step++;
