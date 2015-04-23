@@ -571,7 +571,7 @@ function actionOnClick2 () {
     if (step === 21)
     {
       boss.play('happy');
-      text.setText("Alrighty, I think I've heard enough.\n We'll call you." + step);   
+      text.setText("Alrighty, I think I've heard enough.\n We'll call you.");   
     buttonText1.setText("Thank you, I hope you reached your expectations.");
       buttonText2.setText("I'll be anxiously awating your call.");
       buttonText3.setText("You know, even if I didn't get the job\n you can still call me and let me know, like it's no big deal.");
@@ -799,7 +799,7 @@ text.setText("You must fight a duo of either: a black bear\n, a hyena, a honey b
     {
       boss.play('sad');
       sadness++;
-      text.setText("Alrighty, I think I've heard enough.\n We'll call you." + step);   
+      text.setText("Alrighty, I think I've heard enough.\n We'll call you.");   
     buttonText1.setText("Thank you, I hope you reached your expectations.");
       buttonText2.setText("I'll be anxiously awating your call.");
       buttonText3.setText("You know, even if I didn't get the job\n you can still call me and let me know, like it's no big deal.");
