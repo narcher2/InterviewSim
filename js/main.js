@@ -317,7 +317,7 @@ function actionOnClick1 () {
     {
         boss.play('veryhappy');
       happiness++;
-      text.setText("What was the name of the man you talked to in the elevator on the way up here?");   
+      text.setText("What was the name of the man you talked\nto in the elevator on the way up here?");   
       buttonText1.setText("Mr. Miyamoto?");
       buttonText2.setText("It was a she- her name was Summer. We're having lunch after this.");
       buttonText3.setText("Arthur Slugworth. I told him nothing.");
@@ -500,7 +500,7 @@ function actionOnClick2 () {
     }
     if (step === 18)
     {
-      text.setText("What was the name of the man you talked to in the elevator on the way up here?");   
+      text.setText("What was the name of the man you talked\nto in the elevator on the way up here?");   
       buttonText1.setText("Mr. Miyamoto?");
       buttonText2.setText("It was a she- her name was Summer. We're having lunch after this.");
       buttonText3.setText("Arthur Slugworth. I told him nothing.");
@@ -676,7 +676,7 @@ text.setText("You must fight a duo of either: a black bear\n, a hyena, a honey b
     }
     if (step === 18)
     {
-      text.setText("What was the name of the man you talked to in the elevator on the way up here?");   
+      text.setText("What was the name of the man you talked\nto in the elevator on the way up here?");   
       buttonText1.setText("Mr. Miyamoto?");
       buttonText2.setText("It was a she- her name was Summer. We're having lunch after this.");
       buttonText3.setText("Arthur Slugworth. I told him nothing.");
@@ -852,7 +852,7 @@ function actionOnClick4 () {
     }
     if (step === 18)
     {
-      text.setText("What was the name of the man you talked to in the elevator on the way up here?");   
+      text.setText("What was the name of the man you talked\nto in the elevator on the way up here?");   
       buttonText1.setText("Mr. Miyamoto?");
       buttonText2.setText("It was a she- her name was Summer. We're having lunch after this.");
       buttonText3.setText("Arthur Slugworth. I told him nothing.");
