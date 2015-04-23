@@ -39,7 +39,7 @@ function create() {
     boss.animations.add('angry', [4], 20, false);
     boss.animations.add('sad', [5], 20, false);
     boss.animations.add('verysad', [6], 20, false);
-    boss.animations.add('verymad', [7], 20, false);
+    boss.animations.add('veryangry', [7], 20, false);
     boss.play('neutral');
     
 
