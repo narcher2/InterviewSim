@@ -346,7 +346,7 @@ function actionOnClick1 () {
     {
         boss.play('happy');
       happiness++;
-      text.setText("Alrighty, I think I've heard enough.\n We'll call you." + step);   
+      text.setText("Alrighty, I think I've heard enough.\n We'll call you.");   
     buttonText1.setText("Thank you, I hope you reached your expectations.");
       buttonText2.setText("I'll be anxiously awating your call.");
       buttonText3.setText("You know, even if I didn't get the job\n you can still call me and let me know, like it's no big deal.");
@@ -580,7 +580,7 @@ function actionOnClick2 () {
     
     if (step === 22)
     {
-        text.setText("You never receive a call back. Sorry! \nMaybe next time.);
+        text.setText("You never receive a call back. Sorry! \nMaybe next time.");
     }
     
     step++;
@@ -808,7 +808,7 @@ text.setText("You must fight a duo of either: a black bear\n, a hyena, a honey b
     
     if (step === 22)
     {
-        text.setText("You never receive a call back. Sorry! \nMaybe next time.);
+        text.setText("You never receive a call back. Sorry! \nMaybe next time.");
     }
     
     step++;
