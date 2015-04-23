@@ -181,21 +181,109 @@ function actionOnClick () {
       buttonText3.setText("I'm infertile. <shed tear>");
       buttonText4.setText("I don't feel comfortable answering that questions");
     }
-        if (step === 6)
+        if (step === 8)
     {
-      text.setText("Kirk or Picard?");   
-    buttonText1.setText("Kirk.");
-      buttonText2.setText("Picard.");
-      buttonText3.setText("Reynolds.");
-      buttonText4.setText("What?");
+      text.setText("Could you describe an experience you've had with adversity?");   
+    buttonText1.setText("Hmm, I honestly can't think of one. Things always tend to work out well when I'm involved.");
+      buttonText2.setText("I got in a fight with my former manager, so I ended up stealing his mailbox.");
+      buttonText3.setText("One time I got really bad grade on a test back in college, in response I dropped the course.");
+      buttonText4.setText("I once accidentally ate my roommate's birthday cake. They were really upset. We ended up talking it out and now we're dating");
     }
-        if (step === 6)
+        if (step === 9)
     {
-      text.setText("Kirk or Picard?");   
-    buttonText1.setText("Kirk.");
-      buttonText2.setText("Picard.");
-      buttonText3.setText("Reynolds.");
-      buttonText4.setText("What?");
+      text.setText("Favorite color?");   
+    buttonText1.setText("I'm colorblind <shed tear>");
+      buttonText2.setText("Orange.");
+      buttonText3.setText("Pink.");
+      buttonText4.setText("Lavender");
+    }
+    if (step === 10)
+    {
+      text.setText("If you had a time machine that you could only use twice, what would you do?");   
+    buttonText1.setText("Go back in time and kill Hitler.");
+      buttonText2.setText("Destroy it, nothing good comes from time travel.");
+      buttonText3.setText("Witness the beginning of the universe.");
+      buttonText4.setText("Travel back in time to the founding of this company, and invest all my money in its stock.");
+    }
+    if (step === 11)
+    {
+      text.setText("I see you eying the picture of my family. What do you think about my wife?");   
+      buttonText1.setText("She's beautiful.");
+      buttonText2.setText("I don't know, I haven't met her. I wouldn't judge her on appearance alone.");
+      buttonText3.setText("You're lucky to have her.");
+      buttonText4.setText("She's hot.");
+    }
+    if (step === 12)
+    {
+      text.setText("What did you on your 21st birthday?");   
+      buttonText1.setText("I'm not 21 yet.");
+      buttonText2.setText("I don't... remember.");
+      buttonText3.setText("Sat down and had a nice bottle of wine with my girlfriend and her parents.");
+      buttonText4.setText("Began investing in stock- we went up 10% that day. I can remember it like it was yesterday.");
+    }
+    if (step === 13)
+    {
+      text.setText("How do you organize your LEGO's?");   
+      buttonText1.setText("By color.");
+      buttonText2.setText("By shape and size.");
+      buttonText3.setText("By the set that they belong to");
+      buttonText4.setText("In a big pile on the floor.");
+    }
+    if (step === 14)
+    {
+      text.setText("If I tried to kill you, would you fight back?");   
+      buttonText1.setText("I feel my death would benefit the company, if you felt it just to attack me.");
+      buttonText2.setText("I've had my right hand on the trigger this whole time..");
+      buttonText3.setText("Only if we fight like men- with our bare hands..");
+      buttonText4.setText("I'd run away. The way to get the best of a fight is to avoid it.");
+    }
+    if (step === 15)
+    {
+      text.setText("What's something special about you that the other candidates may not have?");   
+      buttonText1.setText("I studied Russian at Oxford.");
+      buttonText2.setText("I once killed a man using only a ballpoint pen.");
+      buttonText3.setText("I once outran a swarm of killer bees by navigating a hedge maze of my own design.");
+      buttonText4.setText("I was given the chance to live forever, but turned it down to give Jazz a few extra years.");
+    }
+    if (step === 16)
+    {
+      text.setText("Interesting, tell me more.");   
+      buttonText1.setText("It was by far the most invigorating time of my life.");
+      buttonText2.setText("The only thing I regret is that it took up a significant amount of my precious time.");
+      buttonText3.setText("It was necessary, not just for me as a person, but for a future employee at thi company..");
+      buttonText4.setText("If I could go back in time, I'd doit again in a heartbeat.");
+    }
+    if (step === 17)
+    {
+      text.setText("You must fight a duo of either: a black bear, a hyena, a honey badger, or a horse. You get one as your ally.");   
+      buttonText1.setText("Mount the bear, fight the horse mounted hyena- aim low.");
+      buttonText2.setText("Tag team the honey badger, let him do all the work against the horse bear.");
+      buttonText3.setText("Do I get a sword? If so, mount me on a horse and I can take all 3.");
+      buttonText4.setText("Hyena as my ally, vs. a black bear and a horse.");
+    }
+    if (step === 18)
+    {
+      text.setText("What was the name of the man you talked to in the elevator on the way up here?");   
+      buttonText1.setText("Mr. Miyamoto?");
+      buttonText2.setText("It was a she- her name was Summer. We're having lunch after this.");
+      buttonText3.setText("Arthur Slugworth. I told him nothing.");
+      buttonText4.setText("Oh my God, it was you.");
+    }
+    if (step === 19)
+    {
+      text.setText("You are sentenced to execution, and must choose either a lava pit or quicksand to jump into.");   
+      buttonText1.setText("Quicksand, legs first. So I'll have time to make my peace.");
+      buttonText2.setText("Lava, head first. Quick and painless.");
+      buttonText3.setText("Quicksand, head first, get it over with.");
+      buttonText4.setText("Lava, feet first.");
+    }
+    if (step === 20)
+    {
+      text.setText("Favorite non-soda beverage?");   
+      buttonText1.setText("Coffee.");
+      buttonText2.setText("Milk.");
+      buttonText3.setText("Water.");
+      buttonText4.setText("Tea.");
     }
     if (step === 21)
     {
