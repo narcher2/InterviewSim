@@ -183,11 +183,11 @@ function actionOnClick () {
     }
         if (step === 8)
     {
-      text.setText("Could you describe an experience you've had with adversity?");   
-    buttonText1.setText("Hmm, I honestly can't think of one. Things always tend to work out well when I'm involved.");
-      buttonText2.setText("I got in a fight with my former manager, so I ended up stealing his mailbox.");
-      buttonText3.setText("One time I got really bad grade on a test back in college, in response I dropped the course.");
-      buttonText4.setText("I once accidentally ate my roommate's birthday cake. They were really upset. We ended up talking it out and now we're dating");
+      text.setText("Could you describe an experience\nyou've had with adversity?");   
+    buttonText1.setText("Hmm, I honestly can't think of one.\nThings always tend to work out well when I'm involved.");
+      buttonText2.setText("I got in a fight with my former manager,\nso I ended up stealing his mailbox.");
+      buttonText3.setText("One time I got really bad grade on a test back in college,\nin response I dropped the course.");
+      buttonText4.setText("I once accidentally ate my roommate's birthday cake.\nThey were really upset. We ended up talking it out and now we're dating");
     }
         if (step === 9)
     {
@@ -199,17 +199,17 @@ function actionOnClick () {
     }
     if (step === 10)
     {
-      text.setText("If you had a time machine that you could only use twice, what would you do?");   
+      text.setText("If you had a time machine that you could\nonly use twice, what would you do?");   
     buttonText1.setText("Go back in time and kill Hitler.");
       buttonText2.setText("Destroy it, nothing good comes from time travel.");
       buttonText3.setText("Witness the beginning of the universe.");
-      buttonText4.setText("Travel back in time to the founding of this company, and invest all my money in its stock.");
+      buttonText4.setText("Travel back in time to the founding of this company,\nand invest all my money in its stock.");
     }
     if (step === 11)
     {
       text.setText("I see you eying the picture of my family. What do you think about my wife?");   
       buttonText1.setText("She's beautiful.");
-      buttonText2.setText("I don't know, I haven't met her. I wouldn't judge her on appearance alone.");
+      buttonText2.setText("I don't know, I haven't met her.\nI wouldn't judge her on appearance alone.");
       buttonText3.setText("You're lucky to have her.");
       buttonText4.setText("She's hot.");
     }
@@ -219,7 +219,7 @@ function actionOnClick () {
       buttonText1.setText("I'm not 21 yet.");
       buttonText2.setText("I don't... remember.");
       buttonText3.setText("Sat down and had a nice bottle of wine with my girlfriend and her parents.");
-      buttonText4.setText("Began investing in stock- we went up 10% that day. I can remember it like it was yesterday.");
+      buttonText4.setText("Began investing in stock- we went up 10% that day.\nI can remember it like it was yesterday.");
     }
     if (step === 13)
     {
@@ -232,7 +232,7 @@ function actionOnClick () {
     if (step === 14)
     {
       text.setText("If I tried to kill you, would you fight back?");   
-      buttonText1.setText("I feel my death would benefit the company, if you felt it just to attack me.");
+      buttonText1.setText("I feel my death would benefit the company,\nif you felt it just to attack me.");
       buttonText2.setText("I've had my right hand on the trigger this whole time..");
       buttonText3.setText("Only if we fight like men- with our bare hands..");
       buttonText4.setText("I'd run away. The way to get the best of a fight is to avoid it.");
@@ -243,19 +243,19 @@ function actionOnClick () {
       buttonText1.setText("I studied Russian at Oxford.");
       buttonText2.setText("I once killed a man using only a ballpoint pen.");
       buttonText3.setText("I once outran a swarm of killer bees by navigating a hedge maze of my own design.");
-      buttonText4.setText("I was given the chance to live forever, but turned it down to give Jazz a few extra years.");
+      buttonText4.setText("I was given the chance to live forever,\nbut turned it down to give Jazz a few extra years.");
     }
     if (step === 16)
     {
       text.setText("Interesting, tell me more.");   
       buttonText1.setText("It was by far the most invigorating time of my life.");
-      buttonText2.setText("The only thing I regret is that it took up a significant amount of my precious time.");
-      buttonText3.setText("It was necessary, not just for me as a person, but for a future employee at thi company..");
+      buttonText2.setText("The only thing I regret is that it\ntook up a significant amount of my precious time.");
+      buttonText3.setText("It was necessary, not just for me as a person,\nbut for the future of this company.");
       buttonText4.setText("If I could go back in time, I'd doit again in a heartbeat.");
     }
     if (step === 17)
     {
-      text.setText("You must fight a duo of either: a black bear, a hyena, a honey badger, or a horse. You get one as your ally.");   
+      text.setText("You must fight a duo of either: a black bear, a hyena,\na honey badger, or a horse.\nYou get one as your ally.");   
       buttonText1.setText("Mount the bear, fight the horse mounted hyena- aim low.");
       buttonText2.setText("Tag team the honey badger, let him do all the work against the horse bear.");
       buttonText3.setText("Do I get a sword? If so, mount me on a horse and I can take all 3.");
@@ -271,7 +271,7 @@ function actionOnClick () {
     }
     if (step === 19)
     {
-      text.setText("You are sentenced to execution, and must choose either a lava pit or quicksand to jump into.");   
+      text.setText("You are sentenced to execution,\nand must choose either a lava pit or quicksand to jump into.");   
       buttonText1.setText("Quicksand, legs first. So I'll have time to make my peace.");
       buttonText2.setText("Lava, head first. Quick and painless.");
       buttonText3.setText("Quicksand, head first, get it over with.");
