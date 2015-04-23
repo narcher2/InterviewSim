@@ -326,7 +326,7 @@ function actionOnClick1 () {
     if (step === 19)
     {
         boss.play('neutral');
-      text.setText("You are sentenced to execution,\nand must choose either a lava pit or quicksand to jump into.");   
+      text.setText("You are sentenced to execution,\nand must choose either a lava pit\nor quicksand to jump into.");   
       buttonText1.setText("Quicksand, legs first. So I'll have time to make my peace.");
       buttonText2.setText("Lava, head first. Quick and painless.");
       buttonText3.setText("Quicksand, head first, get it over with.");
@@ -508,7 +508,7 @@ function actionOnClick2 () {
     }
     if (step === 19)
     {
-      text.setText("You are sentenced to execution,\nand must choose either a lava pit or quicksand to jump into.");   
+      text.setText("You are sentenced to execution, and must\n choose either a lava pit\nor quicksand to jump into.");   
       buttonText1.setText("Quicksand, legs first. So I'll have time to make my peace.");
       buttonText2.setText("Lava, head first. Quick and painless.");
       buttonText3.setText("Quicksand, head first, get it over with.");
@@ -684,7 +684,7 @@ text.setText("You must fight a duo of either: a black bear\n, a hyena, a honey b
     }
     if (step === 19)
     {
-      text.setText("You are sentenced to execution,\nand must choose either a lava pit or quicksand to jump into.");   
+      text.setText("You are sentenced to execution, and must\nchoose either a lava pit or\nquicksand to jump into.");   
       buttonText1.setText("Quicksand, legs first. So I'll have time to make my peace.");
       buttonText2.setText("Lava, head first. Quick and painless.");
       buttonText3.setText("Quicksand, head first, get it over with.");
@@ -860,7 +860,7 @@ function actionOnClick4 () {
     }
     if (step === 19)
     {
-      text.setText("You are sentenced to execution,\nand must choose either a lava pit or quicksand to jump into.");   
+      text.setText("You are sentenced to execution,\nand must choose either a lava pit\nor quicksand to jump into.");   
       buttonText1.setText("Quicksand, legs first. So I'll have time to make my peace.");
       buttonText2.setText("Lava, head first. Quick and painless.");
       buttonText3.setText("Quicksand, head first, get it over with.");
