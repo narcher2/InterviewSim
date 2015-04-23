@@ -355,11 +355,11 @@ function actionOnClick1 () {
     
     if (step === 22)
     {
-        if (happiness > anger)
+        if (happiness >= anger)
         {
-        text.setText("You got the job!."); 
+        text.setText("You got the job!"); 
         }else{
-            text.setText("You never receive a call back. Maybe next time);
+        text.setText("You never receive a call back. Sorry! \nMaybe next time.);
         }
     }
     
@@ -585,11 +585,11 @@ function actionOnClick2 () {
     
     if (step === 22)
     {
-        if (happiness > anger)
+        if (happiness >= anger)
         {
-        text.setText("You got the job!."); 
+        text.setText("You got the job!"); 
         }else{
-            text.setText("You never receive a call back. Maybe next time);
+        text.setText("You never receive a call back. Sorry! \nMaybe next time.);
         }
     }
     
@@ -818,11 +818,11 @@ text.setText("You must fight a duo of either: a black bear\n, a hyena, a honey b
     
     if (step === 22)
     {
-        if (happiness > anger)
+        if (happiness >= anger)
         {
-        text.setText("You got the job!."); 
+        text.setText("You got the job!"); 
         }else{
-            text.setText("You never receive a call back. Maybe next time);
+        text.setText("You never receive a call back. Sorry! \nMaybe next time.);
         }
     }
     
@@ -1004,11 +1004,11 @@ function actionOnClick4 () {
     
     if (step === 22)
     {
-        if (happiness > anger)
+        if (happiness >= anger)
         {
-        text.setText("You got the job!."); 
+        text.setText("You got the job!"); 
         }else{
-            text.setText("You never receive a call back. Maybe next time);
+        text.setText("You never receive a call back. Sorry! \nMaybe next time.);
         }
     }
     
