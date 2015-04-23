@@ -355,7 +355,14 @@ function actionOnClick1 () {
     
     if (step === 22)
     {
+        if(anger < happiness)
+        {
         text.setText("You got the job!"); 
+        }
+        else
+        {
+        text.setText("They never called you back, sorry!\nBetter luck next time!"); 
+        }
     }
     
     step++;
@@ -580,7 +587,14 @@ function actionOnClick2 () {
     
     if (step === 22)
     {
-        text.setText("You never receive a call back. Sorry! \nMaybe next time.");
+        if(anger < happiness)
+        {
+        text.setText("You got the job!"); 
+        }
+        else
+        {
+        text.setText("They never called you back, sorry!\nBetter luck next time!"); 
+        }
     }
     
     step++;
@@ -808,7 +822,14 @@ text.setText("You must fight a duo of either: a black bear\n, a hyena, a honey b
     
     if (step === 22)
     {
-        text.setText("You never receive a call back. Sorry! \nMaybe next time.");
+        if(anger < happiness)
+        {
+        text.setText("You got the job!"); 
+        }
+        else
+        {
+        text.setText("They never called you back, sorry!\nBetter luck next time!"); 
+        }
     }
     
     step++;
@@ -989,7 +1010,14 @@ function actionOnClick4 () {
     
     if (step === 22)
     {
+        if(anger < happiness)
+        {
         text.setText("You got the job!"); 
+        }
+        else
+        {
+        text.setText("They never called you back, sorry!\nBetter luck next time!"); 
+        }
     }
     
     step++;
