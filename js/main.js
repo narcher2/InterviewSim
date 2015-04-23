@@ -30,7 +30,7 @@ function create() {
 
     background = game.add.tileSprite(0, 0, 800, 600, 'background');
     
-    boss = game.add.sprite(400, 80, 'boss');
+    boss = game.add.sprite(400, 160, 'boss');
     boss.anchor.set(0.5);
     boss.animations.add('neutral', [0], 20, false);
     boss.animations.add('happy', [1], 20, false);
@@ -150,14 +150,17 @@ function actionOnClick1 () {
     }
     if (step === 2)
     {
+      boss.play('neutral');
       text.setText("Why do you have interest in this company?");   
-    buttonText1.setText("Ever since I was a little boy I've dreamed of working at this company.");
+      buttonText1.setText("Ever since I was a little boy I've dreamed of working at this company.");
       buttonText2.setText("My mom told me to apply because she wants me out of the house.");
       buttonText3.setText("I heard you don't drug test.");
       buttonText4.setText("This is the one company I can work for and\n honestly feel like I'm making the world better.");
     }
     if (step === 3)
     {
+    boss.play('eyesclosed');
+      happiness++;
       text.setText("What on your resume would you say makes\nyou most qualified for this job?");  
       buttonText1.setText("My IQ of 160 makes me very intelligent and overqualified for this job.");
       buttonText2.setText("My leadership skills in college can \neasily transition towards synergy in the workplace.");
@@ -166,6 +169,8 @@ function actionOnClick1 () {
     }
     if (step === 4)
     {
+    boss.play('angry');
+      anger++;
       text.setText("What is your biggest weakness?");   
         buttonText1.setText("My inability to work with others.");
       buttonText2.setText("I work too hard for my own good.");
@@ -174,6 +179,9 @@ function actionOnClick1 () {
     }
     if (step === 5)
     {
+    boss.play('veryangry');
+      anger++;
+      anger++;
       text.setText("Where do you see yourself in 5 years?");
     buttonText1.setText("Sitting in your chair, asking\nsome young go-getter the same question.");
       buttonText2.setText("At the head of this company.");
@@ -182,6 +190,8 @@ function actionOnClick1 () {
     }
     if (step === 6)
     {
+    boss.play('eyesclosed');
+      happiness++;
       text.setText("Kirk or Picard?");   
     buttonText1.setText("Kirk.");
       buttonText2.setText("Picard.");
@@ -190,6 +200,8 @@ function actionOnClick1 () {
     }
     if (step === 7)
     {
+    boss.play('veryhappy');
+      happiness++;
       text.setText("Do you plan on havng kids any time soon?");   
     buttonText1.setText("I do, but the job will take priority over them.");
       buttonText2.setText("I didn't major in elextrical engineering to have kids.");
@@ -198,6 +210,8 @@ function actionOnClick1 () {
     }
         if (step === 8)
     {
+    boss.play('happy');
+      happiness++;
       text.setText("Could you describe an experience\nyou've had with adversity?");   
     buttonText1.setText("Hmm, I honestly can't think of one.\nThings always tend to work out well when I'm involved.");
       buttonText2.setText("I got in a fight with my former manager,\nso I ended up stealing his mailbox.");
@@ -206,6 +220,8 @@ function actionOnClick1 () {
     }
         if (step === 9)
     {
+        boss.play('angry');
+      anger++;
       text.setText("Favorite color?");   
     buttonText1.setText("I'm colorblind <shed tear>");
       buttonText2.setText("Orange.");
@@ -214,6 +230,11 @@ function actionOnClick1 () {
     }
     if (step === 10)
     {
+    boss.play('verysad');
+      sadness++;
+      sadness++;
+      anger--;
+      happiness++;
       text.setText("If you had a time machine that you could\nonly use twice, what would you do?");   
     buttonText1.setText("Go back in time and kill Hitler.");
       buttonText2.setText("Destroy it, nothing good comes from time travel.");
@@ -222,6 +243,8 @@ function actionOnClick1 () {
     }
     if (step === 11)
     {
+    boss.play('neutral');
+      anger--;
       text.setText("I see you eying the picture of my family. What do you think about my wife?");   
       buttonText1.setText("She's beautiful.");
       buttonText2.setText("I don't know, I haven't met her.\nI wouldn't judge her on appearance alone.");
@@ -230,6 +253,10 @@ function actionOnClick1 () {
     }
     if (step === 12)
     {
+        boss.play('veryhappy');
+      happiness++;
+      happiness++;
+      sadness--;
       text.setText("What did you on your 21st birthday?");   
       buttonText1.setText("I'm not 21 yet.");
       buttonText2.setText("I don't... remember.");
@@ -238,6 +265,9 @@ function actionOnClick1 () {
     }
     if (step === 13)
     {
+        boss.play('angry');
+      sadness++;
+      anger++;
       text.setText("How do you organize your LEGO's?");   
       buttonText1.setText("By color.");
       buttonText2.setText("By shape and size.");
@@ -246,6 +276,7 @@ function actionOnClick1 () {
     }
     if (step === 14)
     {
+    boss.play('neutral');
       text.setText("If I tried to kill you, would you fight back?");   
       buttonText1.setText("I feel my death would benefit the company,\nif you felt it just to attack me.");
       buttonText2.setText("I've had my right hand on the trigger this whole time..");
@@ -254,6 +285,9 @@ function actionOnClick1 () {
     }
     if (step === 15)
     {
+    boss.play('veryhappy');
+      happiness++;
+      happiness++;
       text.setText("What's something special about you that the other candidates may not have?");   
       buttonText1.setText("I studied Russian at Oxford.");
       buttonText2.setText("I once killed a man using only a ballpoint pen.");
@@ -262,6 +296,8 @@ function actionOnClick1 () {
     }
     if (step === 16)
     {
+    boss.play('happy');
+      happiness++;
       text.setText("Interesting, tell me more.");   
       buttonText1.setText("It was by far the most invigorating time of my life.");
       buttonText2.setText("The only thing I regret is that it\ntook up a significant amount of my precious time.");
@@ -270,6 +306,7 @@ function actionOnClick1 () {
     }
     if (step === 17)
     {
+    boss.play('neutral');
       text.setText("You must fight a duo of either: a black bear, a hyena,\na honey badger, or a horse.\nYou get one as your ally.");   
       buttonText1.setText("Mount the bear, fight the horse mounted hyena- aim low.");
       buttonText2.setText("Tag team the honey badger, let him do all the work against the horse bear.");
@@ -278,6 +315,8 @@ function actionOnClick1 () {
     }
     if (step === 18)
     {
+        boss.play('veryhappy');
+      happiness++;
       text.setText("What was the name of the man you talked to in the elevator on the way up here?");   
       buttonText1.setText("Mr. Miyamoto?");
       buttonText2.setText("It was a she- her name was Summer. We're having lunch after this.");
@@ -286,6 +325,7 @@ function actionOnClick1 () {
     }
     if (step === 19)
     {
+        boss.play('neutral');
       text.setText("You are sentenced to execution,\nand must choose either a lava pit or quicksand to jump into.");   
       buttonText1.setText("Quicksand, legs first. So I'll have time to make my peace.");
       buttonText2.setText("Lava, head first. Quick and painless.");
@@ -294,6 +334,8 @@ function actionOnClick1 () {
     }
     if (step === 20)
     {
+        boss.play('sad');
+      sadness++;
       text.setText("Favorite non-soda beverage?");   
       buttonText1.setText("Coffee.");
       buttonText2.setText("Milk.");
@@ -302,6 +344,8 @@ function actionOnClick1 () {
     }
     if (step === 21)
     {
+        boss.play('happy');
+      happiness++;
       text.setText("Alrighty, I think I've heard enough.\n We'll call you." + step);   
     buttonText1.setText("Thank you, I hope you reached your expectations.");
       buttonText2.setText("I'll be anxiously awating your call.");
@@ -324,6 +368,8 @@ function actionOnClick2 () {
     }
     if (step === 2)
     {
+      boss.play('happy');
+      happiness++;
       text.setText("Why do you have interest in this company?");   
     buttonText1.setText("Ever since I was a little boy I've dreamed of working at this company.");
       buttonText2.setText("My mom told me to apply because she wants me out of the house.");
@@ -332,6 +378,8 @@ function actionOnClick2 () {
     }
     if (step === 3)
     {
+    boss.play('closedeyes');
+      happiness++;
       text.setText("What on your resume would you say makes\nyou most qualified for this job?");  
       buttonText1.setText("My IQ of 160 makes me very intelligent and overqualified for this job.");
       buttonText2.setText("My leadership skills in college can \neasily transition towards synergy in the workplace.");
@@ -498,6 +546,8 @@ function actionOnClick3 () {
     }
     if (step === 2)
     {
+      boss.play('sad');
+      sadness++;
       text.setText("Why do you have interest in this company?");   
     buttonText1.setText("Ever since I was a little boy I've dreamed of working at this company.");
       buttonText2.setText("My mom told me to apply because she wants me out of the house.");
@@ -672,6 +722,8 @@ function actionOnClick4 () {
     }
     if (step === 2)
     {
+        boss.play('angry');
+        anger++;
       text.setText("Why do you have interest in this company?");   
     buttonText1.setText("Ever since I was a little boy I've dreamed of working at this company.");
       buttonText2.setText("My mom told me to apply because she wants me out of the house.");
