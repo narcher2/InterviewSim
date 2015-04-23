@@ -378,7 +378,7 @@ function actionOnClick2 () {
     }
     if (step === 3)
     {
-    boss.play('closedeyes');
+    boss.play('eyesclosed');
       happiness++;
       text.setText("What on your resume would you say makes\nyou most qualified for this job?");  
       buttonText1.setText("My IQ of 160 makes me very intelligent and overqualified for this job.");
